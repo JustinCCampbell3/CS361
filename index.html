@@ -25,17 +25,30 @@
 <header class="w3-bar w3-card w3-theme">
   <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
   <h1 class="w3-bar-item">Restroom Rater</h1>
-</header>
 
-<body>
+
+
 	<!-- HTML for SEARCH BAR -->
   <div id="tfheader">
 
-    <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="Search..." class="tfbutton">
+    <input type="text" class="searchbarinput" name="q" size="21" maxlength="120"><input type="submit" value="Search..." class="searchbarbutton">
 
-  	<div class="tfclear"></div>
+  	<div class="searchbarclear"></div>
   	</div>
-</body>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+            <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+            <a href="#about">About</a>
+            <a href="#base">Base</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <a href="#custom">Custom</a>
+            <a href="#support">Support</a>
+            <a href="#tools">Tools</a>
+        </div>
+    </div>
+</header>
 
 
 <div align="center">
