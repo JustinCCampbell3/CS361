@@ -26,6 +26,9 @@
   <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
   <h1 class="w3-bar-item">Restroom Rater</h1>
 </header>
+
+<?php include('dbinteraction.php') ?>
+
 <body>
 	<!-- HTML for SEARCH BAR -->
   <div id="tfheader">
