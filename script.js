@@ -20,6 +20,4 @@ function closeModal() {
 function welcomeUser() {
     var username = document.getElementById("uname").value; 
     alert("Welcome back " + username + "!"); 
-
-    //document.getElementById("welcome").innerHTML = "Welcome back " + username; 
 }
