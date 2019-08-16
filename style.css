@@ -6,11 +6,11 @@
   padding:20px;
 }
 .searchbarinput{
-  margin: 0px; 
+  margin: 0px;
   padding: 5px 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-size:14px;
-  border:1px solid #0076a3; 
+  border:1px solid #0076a3;
   border-right:0px;
   border-top-left-radius: 5px 5px;
   border-bottom-left-radius: 5px 5px;
@@ -47,7 +47,7 @@
 }
 /* Cynthia's changes start here */
 .display-sidebar {
-  display: none; 
+  display: none;
 }
 
 .middle-content {
@@ -57,30 +57,30 @@
 /* reviews */
 .list {
   list-style-type: none;
-  margin-left: 0px; 
+  margin-left: 0px;
 }
 
 .icon{
-  height: 40px; 
+  height: 40px;
 }
 .checked {
   color: orange;
 }
 .stars {
-  position: relative; 
+  position: relative;
 }
 .grow {
   padding: 5px 5px 5px 5px;
-  background-color: white;  
-  border-radius: 3px; 
-  height: 48px;
+  background-color: white;
+  border-radius: 3px;
+  height: 54px;
   margin: 5px 1% 5px -10%;
   transition: height 0.5s;
   -webkit-transition: height 0.5s;
   overflow: hidden;
 }
 .grow:hover {
-  height: 145px; 
+  height: 145px;
 }
 
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -97,8 +97,8 @@ input[type=text], input[type=password] {
 
 /* .sign-in-button  */
 .sign-in-button {
-  color: black;   
-  font-size: 20px; 
+  color: black;
+  font-size: 20px;
 }
 
 /* Set a style for all buttons */
@@ -131,7 +131,7 @@ input[type=text], input[type=password] {
 }
 
 img.avatar {
-  width: 40; 
+  width: 40;
   border-radius: 50%;
 }
 
@@ -190,14 +190,14 @@ span.psw {
 }
 
 @-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
+  from {-webkit-transform: scale(0)}
   to {-webkit-transform: scale(1)}
 }
-  
+
 @keyframes animatezoom {
-  from {transform: scale(0)} 
+  from {transform: scale(0)}
   to {transform: scale(1)}
-} 
+}
 
 /* Change styles for span and cancel button on extra small screens */
  @media screen and (max-width: 300px) {
