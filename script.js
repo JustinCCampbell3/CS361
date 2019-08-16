@@ -9,10 +9,17 @@ function closeSidebar() {
 
 //opens sign in form
 function signInUser() {
-    document.getElementById('id01').style.display = "block"; 
+    document.getElementById("id01").style.display = "block"; 
 }
 
 //closes sign in form 
 function closeModal() {
     document.getElementById("id01").style.display = "none"; 
+}
+
+function welcomeUser() {
+    var username = document.getElementById("uname").value; 
+    alert("Welcome back " + username + "!"); 
+
+    //document.getElementById("welcome").innerHTML = "Welcome back " + username; 
 }
